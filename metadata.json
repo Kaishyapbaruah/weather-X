@@ -1,0 +1,6 @@
+
+{
+  "name": "Weather X",
+  "description": "Weather X: Your go-to web application for instant, accurate weather forecasts based on your current location. Features dynamic themes, smooth animations, and essential weather details. Powered by Gemini API.",
+  "requestFramePermissions": ["geolocation"]
+}

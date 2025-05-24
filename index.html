@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather X - Real-Time Location Weather</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.0.1"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="app-container" aria-live="polite">
+        <div class="loading-container">
+            <div class="spinner"></div>
+            <p class="loading-text">Finding your location & fetching detailed weather...</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p class="app-description">
+                Stay informed with our beautifully designed and easy-to-use interface.
+            </p>
+            <nav class="footer-nav">
+                <a href="https://weatherxkais.blogspot.com/" target="_blank" rel="noopener noreferrer" aria-label="Read our Privacy Policy">Privacy Policy</a>
+                <a href="https://weatherxkais.blogspot.com/" target="_blank" rel="noopener noreferrer" aria-label="Learn more About Us">About Us</a>
+                <a href="https://weatherxkais.blogspot.com/" target="_blank" rel="noopener noreferrer" aria-label="Contact Us">Contact Us</a>
+            </nav>
+            <p class="copyright">&copy; ${new Date().getFullYear()} Weather X. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="index.tsx"></script>
+</body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
