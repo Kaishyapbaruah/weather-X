@@ -1,0 +1,5 @@
+{
+  "name": " Weather",
+  "description": "A weather application that shows current weather based on your location using Gemini API, featuring dynamic themes and animations.",
+  "requestFramePermissions": []
+}
